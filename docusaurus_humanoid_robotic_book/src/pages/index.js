@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
 import '../css/custom.css';
+import Chatbot from '../components/Chatbot';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -220,6 +221,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+    <Chatbot />
     </Layout>
   );
 }
