@@ -19,7 +19,7 @@ const Chatbot = () => {
   const messagesEndRef = useRef(null);
 
   // Backend API URL - adjust according to your deployment
-  const BACKEND_URL = 'https://ai-book-backend-8qpa.onrender.com/'; // Change to your backend URL
+  const BACKEND_URL = 'https://ai-book-backend-8qpa.onrender.com'; // Change to your backend URL
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -265,4 +265,5 @@ const Chatbot = () => {
 };
 
 export default Chatbot;
+
 
